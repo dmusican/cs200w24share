@@ -9,8 +9,8 @@ public class GuessingGame
         Scanner in = new Scanner(System.in);
         while (guess != secret)
         {
-
-
+            System.out.print("Make a guess: ");
+            guess = in.nextInt();
         }
     }
 }
