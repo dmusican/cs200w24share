@@ -6,13 +6,13 @@ public class GuessingGame
     {
         int secret = 47;
         int guess = -1;
-        Scanner in;
-        in = new Scanner(System.in);
+        Scanner orange;
+        orange = new Scanner(System.in);
         while (guess != secret)
         {
             System.out.print("Make a guess: ");
-            guess = in.nextInt();
+            guess = orange.nextInt();
         }
-        in.close();
+        orange.close();
     }
 }
