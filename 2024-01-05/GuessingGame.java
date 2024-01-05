@@ -13,5 +13,6 @@ public class GuessingGame
             System.out.print("Make a guess: ");
             guess = in.nextInt();
         }
+        in.close();
     }
 }
