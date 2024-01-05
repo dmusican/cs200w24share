@@ -5,8 +5,9 @@ public class GuessingGame
     public static void main(String[] args)
     {
         int secret = 47;
-        int guess;
-        Scanner in = new Scanner(System.in);
+        int guess = -1;
+        Scanner in;
+        in = new Scanner(System.in);
         while (guess != secret)
         {
             System.out.print("Make a guess: ");
