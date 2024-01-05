@@ -12,6 +12,18 @@ public class GuessingGame
         {
             System.out.print("Make a guess: ");
             guess = orange.nextInt();
+            if (guess < secret)
+            {
+                System.out.println("too small!");
+            }
+            else if (guess > secret)
+            {
+                System.out.println("too big");
+            }
+            else
+            {
+                System.out.println("you got it");
+            }
         }
         orange.close();
     }
