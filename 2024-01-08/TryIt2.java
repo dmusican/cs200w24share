@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class TryIt2
 {
     //def calculateDecades(age):
@@ -9,8 +11,10 @@ public class TryIt2
 
     public static void main(String[] args)
     {
-        double answer1 = calculateDecades(9);
-        double answer2 = calculateDecades(127);
+        System.out.print("How old are you? ");
+        Scanner input = new Scanner(System.in);
+        int yourAge = input.nextInt();
+        double answer1 = calculateDecades(yourAge);
         System.out.println(answer1);
         System.out.println(answer2);
     }
