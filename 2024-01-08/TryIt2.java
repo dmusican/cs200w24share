@@ -16,6 +16,5 @@ public class TryIt2
         int yourAge = input.nextInt();
         double answer1 = calculateDecades(yourAge);
         System.out.println(answer1);
-        System.out.println(answer2);
     }
 }
