@@ -1,4 +1,4 @@
 {
     "java.inlayHints.parameterNames.enabled": "none",
-    "java.debug.settings.enableRunDebugCodeLens": false
+    "java.debug.settings.enableRunDebugCodeLens": true
 }
