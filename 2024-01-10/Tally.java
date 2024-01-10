@@ -7,7 +7,7 @@ public class Tally {
         int current = c1.getValue();
         System.out.println("c1 shows " + current);
         c1.click();
-        Counter c2 = new Counter();
+        Counter c2 = new Counter(5);
         c2.click();
         System.out.println("c1 shows " + c1.getValue());
         System.out.println("c2 shows " + c2.getValue());
