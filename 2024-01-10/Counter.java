@@ -1,6 +1,6 @@
 public class Counter {
     // instance variables
-    public int value;
+    private int value;
 
     // instance methods
     public void reset(int startValue) {
