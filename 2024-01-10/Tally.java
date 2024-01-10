@@ -1,7 +1,7 @@
 public class Tally {
     public static void main(String[] args) {
-        Counter c1 = new Counter();
-        c1.reset(6);
+        Counter c1 = new Counter(10);
+        //c1.reset(6);
         c1.click();
         c1.click();
         int current = c1.getValue();
