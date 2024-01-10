@@ -10,4 +10,8 @@ public class Counter {
     public void click() {
         value = value + 1;
     }
+
+    public int getValue() {
+        return value;
+    }
 }
