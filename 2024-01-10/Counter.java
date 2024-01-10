@@ -7,4 +7,7 @@ public class Counter {
         value = 0;
     }
     
+    public void click() {
+        value = value + 1;
+    }
 }
