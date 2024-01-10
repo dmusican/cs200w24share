@@ -1,5 +1,6 @@
 public class Counter {
     // instance variables
+    // style: all should be private
     private int value;
 
     // instance methods
