@@ -11,7 +11,7 @@ public class Tally {
         c2.click();
         System.out.println("c1 shows " + c1.getValue());
         System.out.println("c2 shows " + c2.getValue());
-        System.out.println(c1.value);
+        //System.out.println(c1.value);
         
     }
 }
