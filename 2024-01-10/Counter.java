@@ -3,6 +3,12 @@ public class Counter {
     // style: all should be private
     private int value;
 
+    // constructor: method automatically run
+    // when object is created
+    public Counter(int startValue) {
+        value = startValue;
+    }
+
     // instance methods
     public void reset(int startValue) {
         value = startValue;
