@@ -3,8 +3,8 @@ public class Counter {
     public int value;
 
     // instance methods
-    public void reset() {
-        value = 0;
+    public void reset(int startValue) {
+        value = startValue;
     }
     
     public void click() {
