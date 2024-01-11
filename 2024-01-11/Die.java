@@ -5,7 +5,7 @@ public class Die {
 
     // constructor
     public Die(int numSidesValue) {
-        numsides = numSidesValue;
+        numSides = numSidesValue;
     }
     
 }
