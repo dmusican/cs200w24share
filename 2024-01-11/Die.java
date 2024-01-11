@@ -20,7 +20,7 @@ public class Die {
            (int)(Math.random()*numSides + 1);
     }
 
-    public int getNumDiceMade() {
+    public static int getNumDiceMade() {
         return numDiceMade;
     }
     
