@@ -3,6 +3,9 @@ public class Die {
     private int numSides;
     private int showing;
 
-    
+    // constructor
+    public Die(int numSidesValue) {
+        numsides = numSidesValue;
+    }
     
 }
