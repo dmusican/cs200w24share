@@ -12,5 +12,8 @@ public class Game {
         System.out.println(die1.getShowing());
         System.out.println(die2.getShowing());
 
+        System.out.println("num dice = " +
+             getNumDiceMade());
+
     }
 }
