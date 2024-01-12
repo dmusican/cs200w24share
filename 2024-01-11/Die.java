@@ -8,7 +8,7 @@ public class Die {
     public Die(int numSidesValue) {
         numSides = numSidesValue;
         showing = 1;
-        numDiceMade = numDiceMade + 1;
+        numDiceMade =    numDiceMade + 1;
     }
 
     public int getShowing() {
