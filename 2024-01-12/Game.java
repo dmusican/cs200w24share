@@ -8,7 +8,5 @@ public class Game {
             Rectangle r = new Rectangle(2, 3);
             System.out.println(r.area());
         }
-
-    }
-    
+    }   
 }
