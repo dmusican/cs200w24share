@@ -1,7 +1,7 @@
 public class Game {
     public static void main(String[] args) {
         double randThing = Math.random();
-        Circle or Rectangle s;
+        Shape s;
         if (randThing > 0.5) {
             s = new Circle(10);
         } else {
