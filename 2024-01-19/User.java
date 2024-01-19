@@ -4,7 +4,7 @@ public class User {
         t.value = 12;
         System.out.println(t.value);
         Thing other = new Thing();
-        thing.value = "hello";
+        other.value = "hello";
     }
     
 }
