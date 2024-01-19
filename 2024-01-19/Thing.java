@@ -1,3 +1,4 @@
-public class Thing {
-    public int value;
+// generics
+public class Thing<Banana> {
+    public Banana value;
 }
