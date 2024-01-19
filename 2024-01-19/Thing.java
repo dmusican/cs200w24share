@@ -1,4 +1,4 @@
 // generics
-public class Thing<Banana> {
-    public Banana value;
+public class Thing<T> {
+    public T value;
 }
