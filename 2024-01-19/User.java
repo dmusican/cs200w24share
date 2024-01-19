@@ -1,6 +1,6 @@
 public class User {
     public static void main(String[] args) {
-        Thing t = new Thing();
+        Thing<Integer> t = new Thing<Integer>();
         t.value = 12;
         System.out.println(t.value);
         Thing<String> other = new Thing<String>();
