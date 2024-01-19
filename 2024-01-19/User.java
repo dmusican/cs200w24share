@@ -3,6 +3,8 @@ public class User {
         Thing t = new Thing();
         t.value = 12;
         System.out.println(t.value);
+        Thing other = new Thing();
+        thing.value = "hello";
     }
     
 }
