@@ -17,6 +17,7 @@ public class CS200ArrayList<T> implements CS200List<T> {
             array[i] = array[i-1];
         }
         array[0] = item;
+        numberOfEntries++;
     }
     
 }
