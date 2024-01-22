@@ -4,6 +4,8 @@ public class CS200ArrayList<T> implements CS200List<T> {
     private T[] array;
     private int numberOfEntries;
 
+    // This is a dangerous tool that should be used
+    // for this purpose only only only
     @SuppressWarnings("unchecked")
     public CS200ArrayList() {
         numberOfEntries = 0;
