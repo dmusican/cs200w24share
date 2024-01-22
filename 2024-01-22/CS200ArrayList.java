@@ -13,10 +13,10 @@ public class CS200ArrayList<T> implements CS200List<T> {
     }
 
     public void addHead(T item) {
-        array[0] = item;
         for (int i=numberOfEntries; i >= 1; i--) {
             array[i] = array[i-1];
         }
+        array[0] = item;
     }
     
 }
