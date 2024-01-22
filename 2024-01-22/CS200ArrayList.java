@@ -41,5 +41,4 @@ public class CS200ArrayList<T> implements CS200List<T> {
                 "BAD BAD BAD list is empty");
         }
     }
-    
 }
