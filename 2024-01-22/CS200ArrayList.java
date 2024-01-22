@@ -4,13 +4,14 @@ public class CS200ArrayList<T> implements CS200List<T> {
     private T[] array;
     private int numberOfEntries;
 
+    @SuppressWarnings("unchecked")
     public CS200ArrayList() {
         numberOfEntries = 0;
         int defaultArraySize = 30;
         // I WANT TO DO THIS
         // array = new T[defaultArraySize];
         // THE WORKAROUND IS THIS
-        array = (T[])new Object[defaultArraySize]
+        array = (T[])new Object[defaultArraySize];
     }
 
     public int length() {
