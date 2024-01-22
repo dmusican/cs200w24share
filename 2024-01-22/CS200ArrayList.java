@@ -11,5 +11,9 @@ public class CS200ArrayList<T> implements CS200List<T> {
     public int length() {
         return numberOfEntries;
     }
+
+    public void addHead(T item) {
+        array[0] = item;
+    }
     
 }
