@@ -7,7 +7,10 @@ public class CS200ArrayList<T> implements CS200List<T> {
     public CS200ArrayList() {
         numberOfEntries = 0;
         int defaultArraySize = 30;
-        array = new T[defaultArraySize];
+        // I WANT TO DO THIS
+        // array = new T[defaultArraySize];
+        // THE WORKAROUND IS THIS
+        array = (T[])new Object[defaultArraySize]
     }
 
     public int length() {
