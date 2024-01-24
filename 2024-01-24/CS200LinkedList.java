@@ -20,3 +20,8 @@ public class CS200LinkedList<T>
     nodeToAdd.next = head;
     head = nodeToAdd;
   }
+}
+
+// imagine I have a main
+// CS200List<String> list =
+//      new CS200LinkedList<String>();
