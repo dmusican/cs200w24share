@@ -27,8 +27,8 @@ public class CS200LinkedList<T> {
       System.out.println(current.data);
       current = current.next;
     }
+  }
 }
-
-// imagine I have a main
-// CS200List<String> list =
-//      new CS200LinkedList<String>();
+  // imagine I have a main
+  // CS200List<String> list =
+  //      new CS200LinkedList<String>();
