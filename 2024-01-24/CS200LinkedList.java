@@ -3,8 +3,8 @@ class Node<T> {
   public Node<T> next;
 }
 
-public class CS200LinkedList<T>
-  implements CS200List<T> {
+public class CS200LinkedList<T> {
+  //  implements CS200List<T> {
 
   private Node<T> head;
 
