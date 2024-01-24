@@ -20,6 +20,14 @@ public class CS200LinkedList<T>
     nodeToAdd.next = head;
     head = nodeToAdd;
   }
+
+  public void printout() {
+    Node<T> current = head;
+    while (current != null) {
+      System.out.println(current.data);
+      current = current.next;
+    }
+
 }
 
 // imagine I have a main
