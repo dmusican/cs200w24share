@@ -27,7 +27,6 @@ public class CS200LinkedList<T> {
       System.out.println(current.data);
       current = current.next;
     }
-
 }
 
 // imagine I have a main
