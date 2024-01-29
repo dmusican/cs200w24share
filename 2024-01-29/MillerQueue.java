@@ -8,7 +8,7 @@ class MillerQueue<T> {
      * The tail of the queue is at the beginning
      * of the ArrayList; the head is the last item
      */
-    ArrayList<T> items;
+    LinkedList<T> items;
 
     /*
      * Create a new Queue
