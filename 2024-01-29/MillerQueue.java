@@ -14,7 +14,7 @@ class MillerQueue<T> {
      * Create a new Queue
      */
     public MillerQueue() {
-        this.items = new ArrayList<T>();
+        this.items = new LinkedList<T>();
     }
 
     /*
