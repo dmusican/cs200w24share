@@ -9,7 +9,4 @@ public class Circle {
         return Math.PI * radius * radius;
     }
 
-    public String getColor() {
-        return color;
-    }
 }
