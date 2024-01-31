@@ -1,8 +1,8 @@
 public class Shape {
     private String color;
 
-    public Shape(String colorValue) {
-        color = colorValue;
+    public Shape(String orange) {
+        color = orange;
     }
 
     public String getColor() {
