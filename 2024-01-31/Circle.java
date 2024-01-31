@@ -1,8 +1,10 @@
 public class Circle extends Shape {
     private double radius;
 
-    public Circle(double radiusValue) {
-        radius = radiusVale;
+    public Circle(String colorValue,
+                  double radiusValue) {
+        super(colorValue);
+        radius = radiusValue;
     }
 
     public double area() {
