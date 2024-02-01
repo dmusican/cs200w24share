@@ -2,7 +2,7 @@
 #+PROPERTY: header-args:java :results output :exports both
 
 
-Then show them again how it works from a memory perspective (draw the picture).
+Then show them again how it wo  rks from a memory perspective (draw the picture).
 
 #+BEGIN_SRC java :results output :exports both
 class Hmm {
@@ -20,3 +20,5 @@ class Hmm {
 }
 #+END_SRC
 
+#+RESULTS:
+: 16
