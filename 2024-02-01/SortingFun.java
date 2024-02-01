@@ -16,5 +16,7 @@ public class SortingFun {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(9, 2, 3, 7);
         System.out.println(checkSorted(list));
+        List<Integer> list2 = Arrays.asList(2, 3, 7, 9);
+        System.out.println(checkSorted(list2));
     }
 }
