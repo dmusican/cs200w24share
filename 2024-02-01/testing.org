@@ -1,9 +1,10 @@
 #+title: Testing
+#+PROPERTY: header-args:java :results output :exports both
 
 
 Then show them again how it works from a memory perspective (draw the picture).
 
-#+BEGIN_SRC java :results output :exports both
+#+BEGIN_SRC java
 class Hmm {
     public static int mystery(int n) {
         if (n==1) {
@@ -18,3 +19,6 @@ class Hmm {
     }
 }
 #+END_SRC
+
+#+RESULTS:
+: 16
