@@ -55,8 +55,9 @@ public class SortingFun {
         } else if (nums.size() == 2) {
             return (nums.get(0) <= nums.get(1));
         } else {
-            return (nums.get(0) <= nums.get(1)) &&
-                checkSorted(nums.subList(1, nums.size())));
+            return
+                (nums.get(0) <= nums.get(1)) &&
+                 checkSorted(nums.subList(1, nums.size())));
         }
 }
 
