@@ -20,3 +20,7 @@ class Hmm {
 }
 #+END_SRC
 
+#+RESULTS:
+#+begin_example
+: 16
+#+end_example
