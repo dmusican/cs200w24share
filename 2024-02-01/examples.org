@@ -18,4 +18,10 @@ class FactDemo {
 #+end_src
 
 #+RESULTS:
-: 120
+: 24
+
+
+#+begin_src java :results output :exports both
+class ListAmusement {
+    public static int
+#+end_src
