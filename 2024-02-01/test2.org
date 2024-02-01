@@ -71,7 +71,7 @@
 
 - count frequency of elements in an "array" (a vector)
 
-#+BEGIN_SRC C++ :main no :flags -std=c++17 :results output
+#+BEGIN_SRC C++ :main no :flags -std=c++17 :results output :exports both
 #include <iostream>
 #include <map>
 #include <vector>
