@@ -1,0 +1,20 @@
+#+title: Testing
+
+
+Then show them again how it works from a memory perspective (draw the picture).
+
+#+BEGIN_SRC java
+class Hmm {
+    public static int mystery(int n) {
+        if (n==1) {
+            return 2;
+        } else {
+            return 7 + mystery(n-1);
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(mystery(3));
+    }
+}
+#+END_SRC
