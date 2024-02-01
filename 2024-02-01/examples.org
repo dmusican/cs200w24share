@@ -42,3 +42,12 @@ class ListAmusement {
     }
 }
 #+end_src
+
+#+RESULTS:
+: 21
+
+
+#+begin_src java :results output :exports both
+public class SortingFun {
+
+#+end_src
