@@ -53,10 +53,6 @@ public class SortingFun {
         if (nums.size() == 1) {
             return true;
         } else if (nums.size() == 2) {
-            if (nums.get(0) <= nums.get(1)) {
-                return true;
-            } else {
-                return false;
-            }
+            return (nums.get(0) <= nums.get(1));
 
 #+end_src
