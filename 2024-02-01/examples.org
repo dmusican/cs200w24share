@@ -22,6 +22,7 @@ class FactDemo {
 
 
 #+begin_src java :results output :exports both
+import java.util.Arrays;
 import java.util.List;
 class ListAmusement {
     public static int sumList(List<Integer> nums) {
