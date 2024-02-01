@@ -3,7 +3,7 @@
 
 Then show them again how it works from a memory perspective (draw the picture).
 
-#+BEGIN_SRC java :results output
+#+BEGIN_SRC java :results output :exports both
 class Hmm {
     public static int mystery(int n) {
         if (n==1) {
