@@ -12,10 +12,10 @@ class FactDemo {
     }
 
     public static void main(String[] args) {
-        System.out.println(fact(5));
+        System.out.println(fact(4));
     }
 }
 #+end_src
 
 #+RESULTS:
-: -1
+: 120
