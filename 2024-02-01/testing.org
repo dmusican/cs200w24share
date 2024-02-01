@@ -3,7 +3,7 @@
 
 Then show them again how it works from a memory perspective (draw the picture).
 
-#+BEGIN_SRC java
+#+BEGIN_SRC java :results output
 class Hmm {
     public static int mystery(int n) {
         if (n==1) {
