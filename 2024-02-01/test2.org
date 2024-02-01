@@ -96,3 +96,14 @@ int main()
 }
 
 #+END_SRC
+
+#+RESULTS:
+: The frequency of Canada is 2
+: The frequency of Italy is 1
+: The frequency of Japan is 3
+: The frequency of Spain is 1
+: --------------------
+: The frequency of Canada is 2
+: The frequency of Italy is 1
+: The frequency of Japan is 3
+: The frequency of Spain is 1
