@@ -57,7 +57,7 @@ public class SortingFun {
         } else {
             return
                 (nums.get(0) <= nums.get(1)) &&
-                 checkSorted(nums.subList(1, nums.size())));
+                 checkSorted(nums.subList(1, nums.size()));
         }
     }
 
