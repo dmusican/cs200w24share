@@ -20,5 +20,3 @@ class Hmm {
 }
 #+END_SRC
 
-#+RESULTS:
-: 16
