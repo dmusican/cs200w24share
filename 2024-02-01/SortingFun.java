@@ -11,6 +11,7 @@ public class SortingFun {
                 (nums.get(0) <= nums.get(1)) &&
                  checkSorted(nums.subList(1, nums.size())));
         }
+    }
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(9, 2, 3, 7);
