@@ -3,7 +3,7 @@ class StringStuff {
         if (s.length() == 0) {
             return "";
         } else {
-            return reverse(s.substring(1) + s.charAt(0));
+            return reverse(s.substring(1)) + s.charAt(0);
         }
     }
 
