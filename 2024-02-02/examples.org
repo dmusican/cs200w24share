@@ -27,6 +27,6 @@ class TowersOfHanoiDemo {
     public static void move(int count, int start, int finish, int staging) {
         if (count == 1) {
             System.out.println("Move disk " + count + " " +
-                               from " + start + " to " + finish);
+                               "from " + start + " to " + finish);
         }
 #+end_src
