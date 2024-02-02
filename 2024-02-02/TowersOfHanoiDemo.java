@@ -12,6 +12,6 @@ class TowersOfHanoiDemo {
     }
 
     public static void main(String[] args) {
-        move(3);
+        move(3, 1, 3, 2);
     }
 }
