@@ -1,5 +1,9 @@
 #+title: Examples
 
+Reverse a string
+
 #+begin_src java :exports both
 
 #+end_src
+
+#+RESULTS:
