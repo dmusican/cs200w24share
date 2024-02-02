@@ -40,5 +40,4 @@ class TowersOfHanoiDemo {
         move(3);
     }
 }
-
 #+end_src
