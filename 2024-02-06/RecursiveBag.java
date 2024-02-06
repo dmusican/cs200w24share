@@ -13,4 +13,6 @@ public class RecursiveBag<T> {
         } else if (rest == null) {
             rest = new RecursiveBag<T>();
             rest.add(item);
+        } else {
+            rest.add(item);
         }
