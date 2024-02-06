@@ -21,13 +21,18 @@ public class RecursiveBag<T> {
     public int getFrequency(T item) {
         if (first == null) {
             return 0;
-        } else if (rest == null) {
-            if (first.equals(item)) {
-                return 1;
-            } else {
-                return 0;
-            }
         }
+        int countForRest = 0;
+        if (rest != null) {
+            countForRest = rest.getFrequency(item);
+        }
+
+        if (first.equals(item)) {
+            return 1 + countForRest;
+        } else {
+            return countForRest;
+        }
+    }
 
 
 
