@@ -46,3 +46,4 @@ public class RecursiveBag<T> {
         System.out.println(rb.getFrequency("c"));
         System.out.println(rb.getFrequency("a"));
     }
+}
