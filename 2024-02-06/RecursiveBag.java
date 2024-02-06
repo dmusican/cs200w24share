@@ -16,3 +16,12 @@ public class RecursiveBag<T> {
         } else {
             rest.add(item);
         }
+    }
+
+    public static void main(String[] args) {
+        RecursiveBag<String> rb =
+            new RecursiveBag<String>();
+        rb.add("a");
+        rb.add("b");
+        rb.add("c");
+    }
