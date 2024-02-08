@@ -6,9 +6,11 @@ public class NumberChainStarter
     public static int[][] copyBoard(int[][] board)
     {
         int[][] copy = new int[SIZE][SIZE];
-        for (int i=0; i < SIZE; i++)
-            for (int j=0; j < SIZE; j++)
+        for (int i=0; i < SIZE; i++) {
+            for (int j=0; j < SIZE; j++) {
                 copy[i][j] = board[i][j];
+            }
+        }
         return copy;
     }
 
