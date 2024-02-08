@@ -20,7 +20,7 @@ public class NumberChainStarter
         for (int i=0; i < SIZE; i++) {
             for (int j=0; j < SIZE; j++) {
                 // System.out.printf("%2d   ", board[i][j]);
-                System.out.print(board[i][j]);
+                System.out.print(" " + board[i][j]) ;
             }
             System.out.println();
         }
