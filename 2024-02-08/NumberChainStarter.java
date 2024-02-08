@@ -62,7 +62,7 @@ public class NumberChainStarter
         if (result != null) {
             displayBoard(result);
         } else {
-            System.out.println("Failed.");
+            System.out.println("Failed to find solution.");
         }
     }
 }
