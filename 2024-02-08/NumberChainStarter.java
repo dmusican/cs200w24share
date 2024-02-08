@@ -1,4 +1,4 @@
-public class NumberChain
+public class NumberChainStarter
 {
     public static final int SIZE=9;
 
