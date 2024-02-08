@@ -25,9 +25,9 @@ public class NumberChainStarter
     }
 
 
-    // completeBoard takes a board, and a location for the last filled in
-    // values. Tries to then complete from there. Returns null if it can't;
-    // returns the board itself if the board is full.
+    // completeBoard takes a board, and a location for the most recently filled
+    // in value. Tries to (recursively) complete from there. Returns null if it
+    // can't; returns the board itself if the board is full.
     public static int[][] completeBoard(int[][] board, int row, int col)
     {
         // failed to find solution
