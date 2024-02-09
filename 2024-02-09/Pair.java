@@ -1,5 +1,5 @@
 // Less-than / greater-than extravaganza
-public class Pair<T> {
+public class Pair<T implements Comparable>{
   private T first;
   private T second;
 
