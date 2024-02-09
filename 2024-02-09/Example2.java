@@ -1,5 +1,5 @@
 // Less-than / greater-than extravaganza
-public class Example1 {
+public class Example2 {
   public static void main(String[] args) {
     int x = 3;
     int y = 5;
