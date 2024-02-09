@@ -1,2 +1,3 @@
 public class Example1 {
-  public st
+  public static void main(String[] args) {
+     f
