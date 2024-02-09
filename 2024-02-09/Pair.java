@@ -9,7 +9,7 @@ public class Pair<T> {
   }
 
   public boolean inOrder() {
-    if (first < second) {
+    if (first.compareTo(second)) {
       return true;
     } else {
       return false;
