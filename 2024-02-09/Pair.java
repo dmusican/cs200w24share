@@ -17,6 +17,7 @@ public class Pair<T> {
   }
 
   public static void main(String[] args) {
-    Pair<String> p = new Pair();
+    Pair<String> p = new Pair("hi", "bye");
+    System.out.println(p.inOrder());
   }
 }
