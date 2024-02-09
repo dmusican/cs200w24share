@@ -17,7 +17,8 @@ public class Pair<T extends Comparable>{
   }
 
   public static void main(String[] args) {
-    Pair<String> p = new Pair<String>("hi", "bye");
+    Pair<String> p =
+      new Pair<String>("hi", "bye");
     System.out.println(p.inOrder());
   }
 }
