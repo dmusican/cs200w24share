@@ -13,11 +13,25 @@ public class ArrayMap<K, V> {
   }
 
   public void put(K key, V value) {
-
+    for (int i=0; i < array.size(); i++) {
+      if (array.get(i).key == key) {
+        array.get(i).value = value;
+        return;
+      }
+    }
+    Entry<K,V> newEntry = new Entry<K,V>();
+    newEntry.key = key;
+    newEntry.value = value;
+    array.add(newEntry);
   }
 
   public V get(K key) {
-
+    for (int i=0; i < array.size(); i++) {
+      if (array.get(i).key == key) {
+        return array.get(i).value;
+      }
+    }
+    return null;
   }
 
 
