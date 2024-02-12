@@ -6,7 +6,11 @@ class Entry<K,V> {
 }
 
 public class ArrayMap<K, V> {
-  private ArrayLis
+  private ArrayList<Entry<K,V>> array;
+
+  public ArrayMap() {
+    array = new ArrayList<Entry<K,V>>();
+  }
 
   public void put(K key, V value) {
 
