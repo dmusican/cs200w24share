@@ -42,6 +42,6 @@ public class ArrayMap<K, V> {
       new ArrayMap<String, Integer>();
     myMap.put("Dave", 82);
     myMap.put("Quoc", 5);
-    System.out.println(myMap.get('Quoc'));
+    System.out.println(myMap.get("Quoc"));
   }
 }
