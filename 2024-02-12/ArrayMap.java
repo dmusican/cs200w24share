@@ -1,3 +1,4 @@
+import java.util.*;
 // Arrays are a slow way of doing this,
 // but what the heck
 class Entry<K,V> {
