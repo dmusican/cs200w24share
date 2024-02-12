@@ -1,3 +1,5 @@
+// Arrays are a slow way of doing this,
+// but what the heck
 public class ArrayMap<K, V> {
 
   public void put(K key, V value) {
