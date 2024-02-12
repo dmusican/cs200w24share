@@ -40,8 +40,8 @@ public class ArrayMap<K, V> {
 
     ArrayMap<String, Integer> myMap =
       new ArrayMap<String, Integer>();
-    myMap.put('Dave', 82);
-    myMap.put('Quoc', 5);
+    myMap.put("Dave", 82);
+    myMap.put("Quoc", 5);
     System.out.println(myMap.get('Quoc'));
   }
 }
