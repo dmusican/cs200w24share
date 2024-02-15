@@ -33,6 +33,7 @@ public class BinaryTree<T> {
         if (start == null) {
             return;
         }
+    }
 
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
