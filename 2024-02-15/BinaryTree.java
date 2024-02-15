@@ -45,6 +45,7 @@ public class BinaryTree<T> {
         bt.leftChild.insertRight("sayles");
         bt.insertRight("rottblatt");
         bt.insertRight("sproncert");
+        bt.display(bt);
 
     }
 }
