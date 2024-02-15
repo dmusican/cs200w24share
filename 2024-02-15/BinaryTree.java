@@ -30,5 +30,10 @@ public class BinaryTree<T> {
         System.out.println(bt.key);
         System.out.println(bt.leftChild);
         System.out.println(bt.rightChild);
+        bt.insertLeft("carleton");
+        System.out.println(bt.key);
+        System.out.println(bt.leftChild);
+        System.out.println(bt.rightChild);
+
     }
 }
