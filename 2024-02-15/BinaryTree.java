@@ -17,7 +17,7 @@ public class BinaryTree<T> {
 
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
-        System.out.println(bt.rootData);
+        System.out.println(bt.key);
         System.out.println(bt.leftChild);
         System.out.println(bt.rightChild);
     }
