@@ -9,9 +9,21 @@ public class BinaryTree<T> {
         rightChild = null;
     }
 
+    public void insertLeft(T newData) {
+        if (leftChild == null) {
+            leftChild = new BinaryTree<T>(newData);
+        } else {
+            throw new RuntimeException("leftChild already there");
+        }
+    }
 
-
-
+    public void insertRight(T newData) {
+        if (rightChild == null) {
+            rightChild = new BinaryTree<T>(newData);
+        } else {
+            throw new RuntimeException("rightChild already there");
+        }
+    }
 
 
 
