@@ -33,6 +33,9 @@ public class BinaryTree<T> {
         if (start == null) {
             return;
         }
+        System.out.println(start.key);
+        displayTree(start.leftChild);
+        displayTree(start.rightChild);
     }
 
     public static void main(String[] args) {
