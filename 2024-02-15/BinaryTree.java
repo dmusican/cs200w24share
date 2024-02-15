@@ -33,6 +33,8 @@ public class BinaryTree<T> {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
         bt.insertLeft("carleton");
         bt.insertLeft("schiller");
+        bt.insertRight("rottblatt");
+        bt.insertRight("sproncert");
 
     }
 }
