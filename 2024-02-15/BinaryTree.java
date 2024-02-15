@@ -23,7 +23,9 @@ public class BinaryTree<T> {
         if (rightChild == null) {
             rightChild = new BinaryTree<T>(newData);
         } else {
-            throw new RuntimeException("rightChild already there");
+            BinaryTree<T> newChild = new BinaryTree<T>(newData);
+            newChild.rightChild = rightChild;
+            rightChild = newChild;
         }
     }
 
