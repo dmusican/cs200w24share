@@ -9,6 +9,9 @@ public class BinaryTree<T> {
         rightChild = null;
     }
 
+    // insert before the left child, unless there is no
+    // left child, in which case it just becomes your left
+    // child
     public void insertLeft(T newData) {
         if (leftChild == null) {
             leftChild = new BinaryTree<T>(newData);
