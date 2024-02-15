@@ -52,6 +52,10 @@ public class BinaryTree<T> {
     public void reverseAllChildren() {
     }
 
+    // count number of times key appears in the tree
+    public int count(T key) {
+    }
+
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
         bt.insertLeft("carleton");
