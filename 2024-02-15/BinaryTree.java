@@ -29,13 +29,16 @@ public class BinaryTree<T> {
         }
     }
 
-    public void displayTree(BinaryTree<T> start) {
+    public void displayTree(BinaryTree<T> start, int spaces) {
         if (start == null) {
             return;
         }
+        for (int i=0; i < spaces; i++) {
+            System.out.print(" ");
+        }
         System.out.println(start.key);
-        displayTree(start.leftChild);
-        displayTree(start.rightChild);
+        displayTree(start.leftChild, spaces+1);
+        displayTree(start.rightChild, spaces+1);
     }
 
     public static void main(String[] args) {
@@ -45,7 +48,7 @@ public class BinaryTree<T> {
         bt.leftChild.insertRight("sayles");
         bt.insertRight("rottblatt");
         bt.insertRight("sproncert");
-        bt.displayTree(bt);
+        bt.displayTree(bt, 0);
 
     }
 }
