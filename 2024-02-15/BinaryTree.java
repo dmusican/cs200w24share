@@ -29,6 +29,11 @@ public class BinaryTree<T> {
         }
     }
 
+    public void displayTree(BinaryTree<T> start) {
+        if (start == null) {
+            return;
+        }
+
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
         bt.insertLeft("carleton");
