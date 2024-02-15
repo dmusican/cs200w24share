@@ -20,3 +20,4 @@ public class BinaryTree<T> {
         System.out.println(bt.rootData);
         System.out.println(bt.leftChild);
         System.out.println(bt.rightChild);
+    }
