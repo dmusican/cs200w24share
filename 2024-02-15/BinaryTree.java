@@ -54,6 +54,7 @@ public class BinaryTree<T> {
 
     // count number of times key appears in the tree
     public int count(T key) {
+        return 0;
     }
 
 
