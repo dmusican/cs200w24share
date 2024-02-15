@@ -27,13 +27,8 @@ public class BinaryTree<T> {
 
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
-        System.out.println(bt.key);
-        System.out.println(bt.leftChild);
-        System.out.println(bt.rightChild);
         bt.insertLeft("carleton");
-        System.out.println(bt.key);
-        System.out.println(bt.leftChild.key);
-        System.out.println(bt.rightChild);
+        bt.insertLeft("schiller");
 
     }
 }
