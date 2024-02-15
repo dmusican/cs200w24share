@@ -44,6 +44,14 @@ public class BinaryTree<T> {
         displayTree(start.rightChild, spaces+1);
     }
 
+    // THINGS TO ADD
+    public void deleteLeftChild() {
+    }
+
+    // lefts become right, rights become left
+    public void reverseAllChildren() {
+    }
+
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
         bt.insertLeft("carleton");
