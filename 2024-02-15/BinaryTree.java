@@ -25,8 +25,6 @@ public class BinaryTree<T> {
         }
     }
 
-
-
     public static void main(String[] args) {
         BinaryTree<String> bt = new BinaryTree<String>("hello");
         System.out.println(bt.key);
