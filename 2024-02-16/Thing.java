@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Thing<V> {
+public class Thing<K,V> {
     public ArrayList<V> makeOne(V item) {
         ArrayList<V> alist = new ArrayList<V>();
         alist.add(item);
