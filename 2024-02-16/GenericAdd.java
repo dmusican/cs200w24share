@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Thing<V> {
-    public <V> ArrayList<V> makeOne(V item) {
+    public ArrayList<V> makeOne(V item) {
         ArrayList<V> alist = new ArrayList<V>();
         alist.add(item);
     }
