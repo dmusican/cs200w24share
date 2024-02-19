@@ -12,10 +12,6 @@ public class BSTTryIt {
         tree.put("Canada", "Ottawa");
         System.out.println(tree); // show tree at its current state
 
-        // System.out.println(tree.get("Japan"));  // "Tokyo"
-        // System.out.println(tree.get("Brazil")); // null
-
-        // When you get here
         System.out.println("inorder:");
         tree.inorder();
         System.out.println("\npreorder:");
