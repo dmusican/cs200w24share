@@ -110,4 +110,28 @@ public class BinarySearchTree<K extends Comparable<K>,
         }
         return result;
     }
+
+    private void inorder(TreeNode node) {
+        if (node != null) {
+            inorder(node.leftChild);
+            System.out.println(node.key);
+            inorder(node.rightChild);
+        }
+    }
+
+    private void preorder(TreeNode node) {
+        if (node != null) {
+            System.out.println(node.key);
+            preorder(node.leftChild);
+            preorder(node.rightChild);
+        }
+    }
+
+    public void inorder() {
+        inorder(root);
+    }
+
+    public void preorder() {
+        preorder(root);
+    }
 }
