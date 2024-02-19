@@ -111,7 +111,6 @@ public class BinarySearchTree<K extends Comparable<K>,
         return result;
     }
 
-    // For when I'm here
     private void inorder(TreeNode node) {
         if (node != null) {
             inorder(node.leftChild);
