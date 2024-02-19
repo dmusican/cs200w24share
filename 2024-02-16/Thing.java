@@ -8,7 +8,8 @@ public class Thing<K,V> {
     }
 
     public static void main(String[] args) {
-        Thing<String> ts = new Thing<String>();
+        Thing<Integer, String> ts =
+            new Thing<Integer, String>();
         ArrayList<String> result = ts.makeOne("hello");
     }
 }
