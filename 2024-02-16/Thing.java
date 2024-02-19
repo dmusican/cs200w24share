@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class Thing<K,V> {
+public class Thing<K extends Comparable<K>,
+                   V extends Comparable<V>> {
     public ArrayList<V> makeOne(V item) {
         ArrayList<V> alist = new ArrayList<V>();
         alist.add(item);
