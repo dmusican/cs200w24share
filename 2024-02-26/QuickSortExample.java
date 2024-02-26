@@ -52,6 +52,7 @@ public class QuickSortExample {
 
         quickSort(testList);
 
-        System.out.println("Final result: " + Arrays.toString(testList));
+        System.out.println("Final result: " +
+                           Arrays.toString(testList));
     }
 }
